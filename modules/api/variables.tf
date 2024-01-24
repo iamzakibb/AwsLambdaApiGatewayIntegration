@@ -39,20 +39,3 @@ variable "function_name" {
   
 }
 
-# variable "methods" {
-#   type = map(object({
-#     lambda     = string
-#     lambda_arn = string
-#   }))
-#   default = {
-#     method1 = {
-#       lambda     = "ANY"
-#       lambda_arn = "arn:aws:lambda:us-east-2:102711293377:function:FirstFunction"
-#     }
-#     method2 = {
-#       lambda     = "POST"
-#       lambda_arn = "arn:aws:lambda:us-east-2:102711293377:function:FirstFunction"
-#     }
-#     # Add more methods as needed
-#   }
-# }
