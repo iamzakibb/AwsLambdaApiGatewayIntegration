@@ -1,16 +1,16 @@
-
+#Calling The existing lambda function
 data "aws_lambda_function" "existing" {
   function_name = var.function_name
 }
 
+#Data block for retrieving the Account ID
 data "aws_caller_identity" "current" {}
+
 
 provider "aws" {
   region = "us-east-2"  # Replace with your desired region
   
 }
-
-
 
 ####################
 # API
