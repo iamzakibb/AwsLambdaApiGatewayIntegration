@@ -31,7 +31,7 @@ variable "region" {
 
 variable "account_id" {
   description = "The AWS account ID"
-  default ="102711293377"
+  default =""
 }
 
 variable "function_name" {
